@@ -9,7 +9,7 @@ export default defineConfig({
     open: true,
     proxy: {
       '/api': {
-        target: 'target: 'https://mirofish-api-sufiyan.azurewebsites.net',
+        target: 'https://mirofish-api-sufiyan.azurewebsites.net',
         changeOrigin: true,
         secure: false
       }
