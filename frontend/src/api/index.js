@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // 创建axios实例
 const service = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://mirofish-api-sufiyan.azurewebsites.net',
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://mirofish-api-sufiyan-d7gfercqc0ekavb2.centralindia-01.azurewebsites.net',
   timeout: 300000, // 5分钟超时（本体生成可能需要较长时间）
   headers: {
     'Content-Type': 'application/json'
